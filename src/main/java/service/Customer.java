@@ -19,7 +19,7 @@ public class Customer {
     }
 
     //this is the method
-    public void AddProduct(OrderLine a1) {
+    public void addProduct(OrderLine a1) {
 
         for(int i = 0; i < orderLines.size(); i ++){
 
@@ -76,7 +76,7 @@ public class Customer {
         count = sum;
     }
 
-    public int CALCULATESUM(String ss){
+    public int calculateSum(String ss){
         String avoid = ss;
         int someValue = 78;
         int ZERO_NUMBER = 0;
